@@ -1,0 +1,27 @@
+{
+  "name": "40-market",
+  "version": "1.0.0",
+  "description": "Market is our latest e-commerce platform that will allow users to browse and purchase a wide selection of products.",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node seed.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "@faker-js/faker": "^9.4.0",
+    "@prisma/client": "^6.2.1",
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "prisma": "^6.2.1"
+  }
+}
